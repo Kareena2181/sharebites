@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShareBite – No Meal Wasted</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Navbar -->
+  <header class="bg-green-700 text-white p-4 shadow-md flex justify-between items-center">
+    <h1 class="text-2xl font-bold">ShareBite</h1>
+    <nav>
+      <a href="index.html" class="px-3">Home</a>
+      <a href="donate.html" class="px-3">Donate</a>
+      <a href="list.html" class="px-3">Donations</a>
+      <a href="#about" class="px-3">About Us</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section with local background image -->
+  <section class="relative min-h-screen flex items-center justify-center bg-cover bg-center" 
+style="background-image: url('bg.jpeg');">
+
+
+    <!-- Dark overlay -->
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+    <!-- Text -->
+    <div class="relative z-10 text-center px-6">
+      <h2 class="text-5xl font-bold text-yellow-400 mb-4">ShareBite</h2>
+      <p class="text-xl max-w-2xl mx-auto mb-6">“No Meal Wasted, Every Life Nourished.”</p>
+      <div class="space-x-4">
+        <a href="donate.html" class="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-lg font-semibold">Donate Now</a>
+        <a href="list.html" class="bg-white hover:bg-gray-200 text-black px-6 py-3 rounded-lg font-semibold">Find Food</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="p-10 bg-white text-center">
+    <h2 class="text-3xl font-bold mb-6">About Us</h2>
+    <p class="max-w-3xl mx-auto text-lg mb-4">
+      We are <strong>ShareBite</strong>, a platform dedicated to reducing food waste and feeding the underprivileged.  
+      Our NGO partner, <strong>Ujjwal Bhavishya</strong>, works tirelessly to bring smiles to those in need.
+    </p>
+    <h3 class="text-2xl font-semibold mt-6">Our Mission</h3>
+    <p class="max-w-3xl mx-auto text-lg mt-2">
+      To connect donors—restaurants, individuals, and communities—with hungry people, ensuring  
+      <strong>no meal is wasted and every life is nourished</strong>.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center p-4">
+    <p>&copy; 2025 ShareBite. All Rights Reserved.</p>
+    <p class="text-yellow-400 mt-2">Thank you for supporting our mission 💛</p>
+  </footer>
+
+</body>
+</html>
